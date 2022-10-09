@@ -51,7 +51,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "bin": {
-    "quick-react-app": "./bin/start.js"
+    "reactinrush": "./bin/start.js"
   },
   "babel": {
     "presets": [
