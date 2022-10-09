@@ -21,7 +21,7 @@ const getDeps = (deps) =>
     // exclude the dependency only used in this file, nor relevant to the boilerplate
     .replace(/fs-extra[^\s]+/g, "");
 
-console.log("Initializing a Quick React project..");
+console.log("Initializing a React in Rush project..");
 
 // create folder and initialize npm
 exec(
