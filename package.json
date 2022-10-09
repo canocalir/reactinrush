@@ -1,5 +1,5 @@
 {
-  "name": "quick-react-app",
+  "name": "reactinrush",
   "version": "1.0.0",
   "description": "Light-weight React Boilerplate for developers in rush",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/canocalir/quick-react-app.git"
+    "url": "git+https://github.com/canocalir/reactinrush.git"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
   "author": "Can Ocalir",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/canocalir/quick-react-app/issues"
+    "url": "https://github.com/canocalir/reactinrush/issues"
   },
-  "homepage": "https://github.com/canocalir/quick-react-app#readme",
+  "homepage": "https://github.com/canocalir/reactinrush#readme",
   "dependencies": {
     "fs-extra": "^10.1.0",
     "react": "^18.2.0",

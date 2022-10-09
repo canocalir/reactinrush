@@ -53,7 +53,7 @@ exec(
       );
     }
     https.get(
-      "https://raw.githubusercontent.com/canocalir/quick-react-app/main/.gitignore",
+      "https://raw.githubusercontent.com/canocalir/reactinrush/main/.gitignore",
       (res) => {
         res.setEncoding("utf8");
         let body = "";

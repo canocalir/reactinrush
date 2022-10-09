@@ -4,7 +4,7 @@ import './App.scss'
 const App = () => {
   return (
     <div className='App'>
-        <h1>Welcome to Quick React</h1>
+        <h1>Welcome to React In Rush</h1>
     </div>
   )
 }
