@@ -11,6 +11,7 @@ module.exports = {
     alias: {
       react: path.join(__dirname, 'node_modules', 'react'),
     },
+    extensions: [".js", "jsx", ".json"],
   },
   devServer: {
     port: "8000",
@@ -18,9 +19,6 @@ module.exports = {
       directory: path.join(__dirname, "public"),
     },
     compress: true,
-  },
-  resolve: {
-    extensions: [".js", "jsx", ".json"],
   },
   module: {
     rules: [
