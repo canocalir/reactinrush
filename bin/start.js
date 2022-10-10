@@ -74,11 +74,10 @@ exec(
     console.log("npm init -- completed\n");
  
     console.log("Adding ingredients -- it might take a few moment..");
-    const devDeps = getDeps(packageJson.devDependencies);
     const deps = getDeps(packageJson.dependencies);
     exec(
-      `cd ${process.argv[2]} && git init && node -v && npm -v && npm i -D ${devDeps} && npm i -S ${deps}`,
-      (npmErr, npmStdout, npmStderr) => {
+      `cd ${process.argv[2]} && git init && node -v && npm -v  && npm i -S ${deps}`,
+      (npmErr, npmStdout) => {
         if (npmErr) {
           console.error(`Error while installing dependencies
       ${npmErr}`);
