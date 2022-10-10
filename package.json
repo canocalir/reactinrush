@@ -1,6 +1,6 @@
 {
   "name": "reactinrush",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Light-weight React Boilerplate for developers in rush",
   "main": "index.js",
   "scripts": {
