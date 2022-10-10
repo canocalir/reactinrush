@@ -18,12 +18,10 @@ const getDeps = (deps) =>
     .toString()
     .replace(/,/g, " ")
     .replace(/^/g, "")
-    // exclude the dependency only used in this file, nor relevant to the boilerplate
     .replace(/fs-extra[^\s]+/g, "");
 
 console.log("Initializing a React in Rush project..");
 
-// create folder and initialize npm
 exec(
   `mkdir ${process.argv[2]} && cd ${process.argv[2]} && npm init -f`,
   (initErr, initStdout, initStderr) => {
@@ -73,7 +71,7 @@ exec(
       }
     );
 
-    console.log("npm init -- done\n");
+    console.log("npm init -- completed\n");
  
     console.log("Adding ingredients -- it might take a few moment..");
     const devDeps = getDeps(packageJson.devDependencies);
