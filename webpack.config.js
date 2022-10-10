@@ -14,7 +14,7 @@ module.exports = {
     extensions: [".js", "jsx", ".json"],
   },
   devServer: {
-    port: "8000",
+    port: "auto",
     static: {
       directory: path.join(__dirname, "public"),
     },
